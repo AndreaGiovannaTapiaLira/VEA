@@ -10,4 +10,11 @@ public class Vehicul{
         this.modelo = modelo;
         this.velmax = velmax;
     }
+
+    // Mátodo del Vehicul
+    public void mostrarinformacion(){
+        System.out.println("Marca: " + this.marca);
+        System.out.println("Modelo: " + this.modelo);
+        System.out.println("Velocidad Máxima: " + this.velmax);
+    }
 }
